@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
-import stySheet from './components/stySheet';
+import StySheet from './components/StySheet';
 import Logo from './components/Logo';
 
 
@@ -9,7 +9,7 @@ const App = () => {
     <View style={styles.container}>
       {/* <Text style={[styles.title,styles.warning]}>Hello React Native</Text> */}
       {/* <Logo /> */}
-      <stySheet/>
+      <StySheet/>
     </View>
   )
 }

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const stySheet = () => {
+const StySheet = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>React Native</Text>
@@ -9,7 +9,7 @@ const stySheet = () => {
   )
 }
 
-export default stySheet
+export default StySheet
 
 const styles = StyleSheet.create({
     container: {
