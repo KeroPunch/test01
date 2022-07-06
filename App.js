@@ -1,14 +1,11 @@
-import { View, Text, StyleSheet } from 'react-native'
+import {View, Text } from 'react-native'
 import React from 'react'
-import StySheet from './components/StySheet';
-import Logo from './components/Logo';
-import LotsOfGreetings from './components/LotsOfGreetings';
-
+import UserNameandPassword from './components/UserNameandPassword';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <LotsOfGreetings />
+    <View>
+      <UserNameandPassword/>
     </View>
   )
 }

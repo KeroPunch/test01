@@ -10,7 +10,7 @@ const Greeting = (props) => {
 }
 const LotsOfGreetings = () => {
   return (
-    <View>
+    <View style={{alignItems:'center',top:50}}>
       <Greeting name ='Marry Chrismas ' date='25-Dec-2022' />
       <Greeting name ='Happy New Year ' date='31-Dec-2022' />
       <Greeting name ='Songkarn Festival ' date='13-Apr-2022' />
