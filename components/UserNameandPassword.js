@@ -20,6 +20,7 @@ const UserNameandPassword = () => {
         placeholder='Password'
       />
       <Button
+        color='pink'
         title='Submit'
         onPress={()=>alert('Email : ' + Email +'\nPassword : ' + Password)}
       />
@@ -38,5 +39,6 @@ const styles = StyleSheet.create({
         marginBottom:10,
         borderWidth:0.5,
         backgroundColor:'#e8e8e8'
-    }
+    },
+    
 })
