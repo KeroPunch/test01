@@ -1,14 +1,15 @@
 import {View, Text } from 'react-native'
 import React from 'react'
-import UserNameandPassword from './components/UserNameandPassword';
+import UserNamePassword from './components/UserNamePassword';
 
 const App = () => {
   return (
     <View>
-      <UserNameandPassword/>
+      <UserNamePassword/>
     </View>
   )
 }
 
 export default App
+
 
